@@ -65,7 +65,7 @@ export class Select {
 	 * Return current selection object
 	 */
 	get sel(): WindowSelection {
-		return this.jodit.getRootNode().shadowRoot.getSelection();
+		return (<DocumentOrShadowRoot><unknown>(this.jodit.editor.getRootNode())).getSelection();
 	}
 
 	/**
