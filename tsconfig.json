@@ -24,7 +24,5 @@
 		"lib": ["es5", "esnext", "dom", "scripthost"]
 	},
 
-	"files": ["node_modules/@types/ace"],
-
 	"exclude": ["node_modules", "build"]
 }

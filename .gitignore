@@ -1,3 +1,4 @@
+.vscode
 .awcache/
 .idea/
 node_modules/
@@ -10,4 +11,4 @@ index.html
 ./index.html
 
 .DS_Store
-.vs
+build/
